@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "For Loop Activity Exercise 1",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise One\\n0\\n1\\n2\\n3\\n4\\n5\\n6\\n7\\n8\\n9",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
