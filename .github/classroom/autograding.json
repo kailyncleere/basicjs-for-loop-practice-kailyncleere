@@ -35,7 +35,7 @@
       "setup": "",
       "run": "node code.js",
       "input": "",
-      "output": "Exercise Four\\n22\\n15\\n10\\n19\\n36\\n2\\n5\\n20",
+      "output": "Exercise Four\\n-1\\n-2\\n-3\\n-4\\n-5\\n-6\\n-7\\n-8\\n-9\\n-10\\n-11\\n-12\\n-13\\n-14\\n-15\\n-16\\n-17\\n-18\\n-19\\n-20",
       "comparison": "regex",
       "timeout": 10,
       "points": null
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "node code.js",
       "input": "",
-      "output": "Exercise Five\\n15\\n10\\n19\\n2\\n5",
+      "output": "Exercise Five\\n-20\\n-19\\n-18\\n-17\\n-16\\n-15\\n-14\\n-13\\n-12\\n-11\\n-10\\n-9\\n-8\\n-7\\n-6\\n-5\\n-4\\n-3\\n-2\\n-1",
       "comparison": "regex",
       "timeout": 10,
       "points": null
@@ -55,27 +55,7 @@
       "setup": "",
       "run": "node code.js",
       "input": "",
-      "output": "Exercise Six\\n451440000",
-      "comparison": "regex",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "For Loop Activity Exercise 7",
-      "setup": "",
-      "run": "node code.js",
-      "input": "",
-      "output": "Exercise Seven\\n36",
-      "comparison": "regex",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "For Loop Activity Exercise 8",
-      "setup": "",
-      "run": "node code.js",
-      "input": "",
-      "output": "Exercise Eight\\n\\[ 22, 15, 10, 19, 36, 20 \\]",
+      "output": "Exercise Six\\n20\\n18\\n16\\n14\\n12\\n10\\n8\\n6\\n4\\n2\\n0\\n-2\\n-4\\n-6\\n-8\\n-10\\n-12\\n-14\\n-16\\n-18\\n-20",
       "comparison": "regex",
       "timeout": 10,
       "points": null
