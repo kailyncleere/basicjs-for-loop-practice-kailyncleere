@@ -45,7 +45,7 @@
       "setup": "",
       "run": "node code.js",
       "input": "",
-      "output": "Exercise Five\\n[22, 15, 10, 19, 36, 20]",
+      "output": "Exercise Five\\n[ 22, 15, 10, 19, 36, 20 ]",
       "comparison": "regex",
       "timeout": 10,
       "points": null
