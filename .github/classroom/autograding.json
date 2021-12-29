@@ -45,7 +45,7 @@
       "setup": "",
       "run": "node code.js",
       "input": "",
-      "output": "Exercise Five%0A[ 22, 15, 10, 19, 36, 20 ]",
+      "output": "[ 22, 15, 10, 19, 36, 20 ]",
       "comparison": "included",
       "timeout": 10,
       "points": null
