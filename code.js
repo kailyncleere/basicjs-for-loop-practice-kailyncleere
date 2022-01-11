@@ -13,7 +13,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 //
 // Write your code here 👇
 
-for (let index = 0; index < 2; index++) {
+for (let index = 0; index < 10; index++) {
   console.log(index);
 }
 
@@ -25,7 +25,9 @@ console.log("Exercise Two");
 //   (This should include the number 20, but not include the number 0)
 //
 // Write your code here 👇
-
+for (let index = 0; index <=20; index++){
+  console.log(index);
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -35,7 +37,9 @@ console.log("Exercise Three");
 //   (This should include the number 20, and the number 2, but not include the number 0)
 //
 // Write your code here 👇
-
+for (let index  = 2; index <=20; index +=2){
+  console.log(index);
+}
 
 
 // ----------------------------------------------------------------------------------------------
@@ -49,8 +53,10 @@ console.log("Exercise Four");
 // - Have your loop iterate through every number in the numbers array, printing the number to the console.
 //
 // Write your code here 👇
-
-
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]) 
+}
+ 
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Five");
@@ -59,8 +65,14 @@ console.log("Exercise Five");
 //   printing out numbers LESS THAN (but not including) 20.
 //
 // Write your code here 👇
-
-
+let newArray = []
+for (let i = 0; i < numbers.length; i++){
+  let current = numbers[i];
+  if (current < 20) {
+    newArray.push(current);
+  }
+}
+console.log(newArray)
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Six");
 // - Using a loop, multiply every number in the numbers array together.
@@ -69,8 +81,12 @@ console.log("Exercise Six");
 // - Hint 2: Remember that 0 times anything is 0.  So your result variable should not start at zero :) 
 //
 // Write your code here 👇
+let sum = 1
+for (let i = 0; i < numbers.length; i ++) {
+ sum = sum * numbers[i]
+}
 
-
+console.log(sum)
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Seven");
 // - Using a loop, find the largest number in the numbers array.
@@ -79,8 +95,14 @@ console.log("Exercise Seven");
 //   (But don't hardcode that, find it with a loop...)
 //
 // Write your code here 👇
-
-
+let largest = 0
+for (let i = 0; i < numbers.length; i++){
+  let current = numbers[i];
+  if (current > largest ) {
+    largest = current;
+  } 
+}
+console.log(largest)
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Eight");
 // - Using a loop, filter out every number smaller than 10 from the numbers array.
@@ -89,7 +111,14 @@ console.log("Exercise Eight");
 //
 // Write your code here 👇
 
-
+newArray = []
+for (let i = 0; i < numbers.length; i++){
+  let current = numbers[i];
+  if (current > 10) {
+    newArray.push(current);
+  }
+}
+console.log(newArray)
 
 // When you are done with all of the exercises, check your console output to make sure it
 // matches the expected output of each exercise and remove any extranneous console.log()
